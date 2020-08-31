@@ -4,10 +4,16 @@ setTimeout(function() {
 }, 2000);
 
 $( document ).ready(function() {
-  var h = $(window).height();
-  // var cover = document.getElementById("cover");
-  // var cover2 = document.getElementById("cover2");
-  // cover.style.height = h + 'px';
-  // cover2.style.height = h + 'px';
   $("#container").html('<div id="preloader"><img id="mypic" alt ="mypic" src ="assets/img/richard.jpg"/></div>');
+  var w = $("#intro").width()
+  var cover = document.getElementById("cover");
+  cover.style.width = w + 'px';
+
+  $(window).resize(function() {
+    w = $("#intro").width()
+    cover.style.width = w + 'px';
+  });
+  $(window).scroll(function () {
+    cover.style.opacity = $(this).scrollTop() / 1000;
+  });
 });

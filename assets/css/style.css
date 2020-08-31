@@ -62,7 +62,6 @@ p code {
 }
 
 #mypic  {
-    z-index: 1000;
     position:fixed;
     padding:0;
     top: 0;
@@ -78,7 +77,7 @@ p code {
 }
 
 #cover  {
-    z-index: 1000;
+    z-index: 100;
     top:0;
     height:100%;
     position:absolute;
@@ -87,7 +86,26 @@ p code {
     /* background: #A8DEFA; */
     /* background: gray; */
     background: whitesmoke;
-    opacity:0.2;
+    right:0;
+    opacity:0;
+}
+
+#ghost  {
+  z-index: -1;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: url(../../assets/img/misty.jpg) no-repeat top
+    center/cover;
+}
+#end {
+  position: absolute;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.2;
+  border-top: 4px solid gray;
 }
 
 #preloader  {
@@ -187,8 +205,11 @@ h3 {
 .full-height {
   height: 100vh;
 }
+.main  {
+  z-index: 0;
+}
 #intro.section {
-  background: url(../../assets/img/andrew-borstein-2a.jpg) no-repeat top
+  background: url(../../assets/img/cover.jpg) no-repeat top
     center/cover;
   position: relative;
 }
@@ -402,6 +423,10 @@ small {
     background: #fff;
     height: 64px;
     position: absolute;
+    z-index: 1000;
+  }
+  #cover{
+    margin-top:64px;
   }
   nav a.button-collapse,
   nav a.button-collapse i {
@@ -421,7 +446,7 @@ small {
     display: block;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 2000;
   }
   .name-title {
     display: block;
