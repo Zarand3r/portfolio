@@ -489,14 +489,8 @@ small {
     line-height: 200%;
     margin: 30px 0 0;
   }
-  nav.hide-on-large.only.trigger {
-    display: block;
-    position: fixed;
-    top: 0;
+  hide-on-large only {
     z-index: 2000;
-  }
-  #cover{
-    margin-top:64px;
   }
   #intro.section .container *:not(span) {
     padding: 0;
