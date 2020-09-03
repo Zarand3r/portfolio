@@ -489,12 +489,12 @@ small {
     line-height: 200%;
     margin: 30px 0 0;
   }
-  /* nav {
-    background: #fff;
-    height: 64px;
-    position: absolute;
-    z-index: 1000;
-  } */
+  nav.hide-on-large.only.trigger {
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+  }
   #cover{
     margin-top:64px;
   }
