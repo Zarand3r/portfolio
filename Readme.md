@@ -1,7 +1,7 @@
 Inspired by Andrew Borstein's original website using Materialized. Very grateful that he allows others to adapt his design!
 
 
-Widen the experience boxes
+Widen the experience boxes (allow them to keep widening, increase max width)
 Add media query to expand the projects grid to 4 per row
 Color code the projects by type (web, ml, vision)
 Create research tab with big boxes
