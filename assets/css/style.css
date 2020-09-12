@@ -210,8 +210,10 @@ h3 {
   z-index: 0;
 }
 #intro.section {
+  /* background: url(../../assets/img/cover5.jpg) no-repeat top
+    center/cover; */
   background: url(../../assets/img/cover5.jpg) no-repeat top
-    center/cover;
+    right/cover;
   position: relative;
 }
 #intro.section .container {
@@ -234,7 +236,9 @@ h3 {
   padding: 0 10px;
 }
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  background-color: black;
+  opacity: 0.3;
   height: 100%;
   left: 0;
   position: absolute;
