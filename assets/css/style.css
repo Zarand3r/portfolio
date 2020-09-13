@@ -397,9 +397,11 @@ small {
 .teal {
   background-color: #008073 !important;
 }
+
 @media (min-width: 1200px) {
   #experience .container {
-    width: 860px;
+    width: 95%;
+    max-width: 1280px;
   }
 }
 @media (max-width: 1360px) {
