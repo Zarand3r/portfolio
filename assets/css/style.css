@@ -229,7 +229,7 @@ h3 {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 #intro.section .underline {
-  /* border-bottom: 5px solid #slategray; */
+  /* border-bottom: 5px solid slategray; */
   border-bottom: 5px solid #557ea7;
 }
 #intro.section .teal {
