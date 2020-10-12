@@ -377,6 +377,14 @@ a.hoverline:hover {
   left: 20px;
   position: relative;
 }
+#profpic  {
+  height:400px;
+  width: 400px;
+  /* border-radius: 50%; */
+  background-image: url(../../assets/img/profile2.jpeg);
+  background-position: center center;
+  background-size: cover;
+}
 #experience .col.s12.m2 {
   text-align: center;
 }
