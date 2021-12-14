@@ -252,7 +252,7 @@
                 <a href="https://drive.google.com/file/d/1uz-OgY14QJ_RmT-pR7EBi7daXPxS7Rmk/view?usp=sharing" target="manuscript"><img src="assets/img/robotic_surgery_abstract.png" style = "width: 100%;"></a>
               </div>
             </div>
-            <div class="card large">
+            <div class="card large" style="height:auto">
               <div class="card-content">
                 <p>
                   <span class="card-title">
@@ -260,16 +260,16 @@
                   </span>
                 </p>
                 <p class="brown-text">
-                  Institute - Field of Study | Month Year
+                  Caltech Materials Simulation Center - Quantum Chemistry | 2021
                 </p>
                 <ul>
                   <li>
-                    Abstract: describe what I did and who I worked with. Explain the significance of this project.
+                    Research conducted to satisfy senior thesis option for the physics major.
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="card large">
+            <div class="card large" style="height:auto">
               <div class="card-content">
                 <p>
                   <span class="card-title">
@@ -277,16 +277,23 @@
                   </span>
                 </p>
                 <p class="brown-text">
-                  Institute - Field of Study | Month Year
+                  Caltech CS156b - Machine Learning Project Class | Spring 2020
                 </p>
                 <ul>
                   <li>
-                    Abstract: describe what I did and who I worked with. Explain the significance of this project.
+                    Participated in a campus wide initiative to forecast Covid-19 infection curves on a county level.
+                  </li>
+                  <li>
+                    Developed a novel epidemiological model and published independently. Paper is linked <a href= "https://arxiv.org/abs/2006.13693">here</a>
+                  </li>
+                  <li>
+                    Team achieved performance in the top 10 of competing models.
                   </li>
                 </ul>
+                <a href="https://arxiv.org/abs/2006.13693" target="covid"><img src="assets/img/covid.png" style = "width: 100%;"></a>
               </div>
             </div>
-            <div class="card large">
+            <div class="card large" style="height:auto">
               <div class="card-content">
                 <p>
                   <span class="card-title">
@@ -294,13 +301,28 @@
                   </span>
                 </p>
                 <p class="brown-text">
-                  Institute - Field of Study | Month Year
+                  NASA Jet Propulsion Laboratory - Machine Learning and Instrument Autonomy Group | Fall 2019
                 </p>
+                <a href="https://ml.jpl.nasa.gov/projects/barefoot/barefoot.html" target="barefoot"><img src="assets/img/barefoot1.png" style = "width: 100%;"></a>
                 <ul>
                   <li>
-                    Abstract: describe what I did and who I worked with. Explain the significance of this project.
+                    In this work, we demonstrate an instrumented wheel concept which utilizes a 2D pressure grid, an electrochemical impedance spectroscopy (EIS) sensor and machine learning to extract meaningful metrics from the interaction between the wheel and surface terrain. These include continuous slip/skid estimation, balance, and sharpness for engineering applications. Estimates of surface hydration, texture, terrain patterns, and regolith physical properties such as cohesion and angle of internal friction are additionally calculated for science applications. Traditional systems rely on post-processing of visual images and vehicle telemetry to estimate these metrics. Through in-situ sensing, these metrics can be calculated in near real time and made available to onboard science and engineering autonomy applications. This work aims to provide a deployable system for future planetary exploration missions to increase science and engineering capabilities through increased knowledge of the terrain.
+                  </li>
+                  <li>
+                    Planetary rovers rely heavily on visual images and telemetry, such as motor current, to navigate while maintaining the health and safety of the vehicle. Rover motion activities are planned in advance by operations teams and then carried out by the vehicle. Thresholds, set by operators during the activity planning phase, are monitored by the vehicle to ensure they remain within bounds. These include metrics like rate of slip between the wheel and the surface, vehicle pitch/tilt/roll and drive motor currents. While some of these parameters may be directly measured, others like slip must be inferred such as by external, introspective camera systems extending beyond the wheel itself. Complex models, such as ARTEMIS, infer slippage based on deviations from the expected final rover location and orientation. Knowledge of these values can enable more efficient vehicle traverses and further inform scientists on local terrain characteristics. Past attempts have been made to derive terrain mechanical properties based on rover telemetry and visual data and applied some ML-based proof-of-principle systems. However, all of these efforts are characterized by inferred interactions that are only available through post-hoc ground analysis. Through instrumentation embedded directly in the wheel, these metrics can be directly computed and made available to vehicle science and navigation systems in near real time.
+                  </li>
+                  <li>
+                    The classification of terrrain type can critically inform traversibility as well as geologic sciences. This classification is traditionally performed using accelerometers and vibrational analysis, identifying frequency distributions for each terrain type. Such 1D datasets can infer certain terrain types in fast-moving vehicles (e.g. self-driving cars), but for the cautious speeds typical of explorative robots the vibrational input is weak and unreliable. Further, vibrational analysis cannot alone provide detailed science estimates of surface properties like the presence/thickness of crusts, and rough surface morphology. A limited set of embedded pressure sensors have been used to asses wheel contact and load distribution, and estimate drawbar pull, however these do not provide the full contact geometry.
+                  </li>
+                  <li>
+                    A 2D grid sensor instead supplies a pressure/conductivity "image" of the surface/wheel interface, allowing estimation of surface properties and directly measuring several key contact parameters such as traction coefficients in real time. Knowing the current slip and sink rates of each wheel could be used to halt a drive, while the recognition of rock below the wheel could result in a better power distribution model to the wheels. Increased situational awareness can be beneficial for scientific yield as well. In exploratory planetary mission scenarios, monitoring terrain change can trigger bursts of remote sensing from onboard science instruments. Simultaneously, wheels that carry additional in-situ sensors may extract regolith parameters of potential scientific interest such as soil hydration and cementation. This new sensing modality has promise to support Lunar/Martian exploration at cruising speeds and to enable longer traverses.
+                  </li>
+                  <li>
+                    The Barefoot Rover tactile wheel carries a payload of an electrochemical impedance spectrometer (EIS), for hydration detection, and is wrapped in a 2D grid of pressure sensors, which give continual context for the pressure signature of the ground underneath the wheel. Moreover, the Barefoot Rover utilizes ML to extract information from these in-situ sensors and to train models that are capable of near real-time estimation for engineering and science. This benefits every rover that wants to understand what it is touching; direct contact information can inform mission operations path planning, enhance visual terrain mapping, provide input to agile science and serve as an important feedback loop for future autonomous systems.
                   </li>
                 </ul>
+                <br>
+                <a href="https://ml.jpl.nasa.gov/projects/barefoot/barefoot.html" target="barefoot"><img src="assets/img/barefoot2.png" style = "width: 100%;"></a>
               </div>
             </div>
             <div class="card large">
@@ -340,12 +362,12 @@
               </div>
               <div class="role brown-text">Software Engineer</div>
               <p>
-                <em class="grey-text">An electric car company on a mission to accelerate the world's transition to sustainable energy</em>
+                <em class="grey-text">SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology,</em>
               </p>
-              <h6>Crash Safety Team</h6>
+              <h6>Starlink Network</h6>
               <ul>
                 <li>
-                  Developed pipeline for crash data.
+                   
                 </li>
               </ul>
               <h6>Accomplishments</h6>
